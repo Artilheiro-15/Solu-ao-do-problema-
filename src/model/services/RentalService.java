@@ -9,12 +9,12 @@ public class RentalService {
   private Double pricePerHour;
   private Double priceperDay;
 
-  private BrazilTaxService taxService;
+  private TaxService taxService;
 
   public RentalService(
     Double pricePerHour,
     Double priceperDay,
-    BrazilTaxService taxService
+    TaxService taxService
   ) {
     this.pricePerHour = pricePerHour;
     this.priceperDay = priceperDay;
